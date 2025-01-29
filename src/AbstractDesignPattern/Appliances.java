@@ -3,6 +3,7 @@ package AbstractDesignPattern;
 public interface Appliances {
     void status();
 }
+
 class AirConditioner implements Appliances{
 
     @Override
